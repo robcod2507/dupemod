@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dupemod",
+  "version": "1.0.0",
+  "name": "Dupe Mod",
+  "description": "Дублирование предметов",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dupemod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.dupemod.DupeMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
