@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+
+[[mods]]
+modId="dupemod"
+version="${version}"
+displayName="Dupe Mod"
+authors="YourName"
+description="Мод для дублирования предметов в левой руке"
+logoFile=""
+updateJSONURL=""
+
+[[dependencies.dupemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.dupemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
